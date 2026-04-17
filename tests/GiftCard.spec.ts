@@ -18,7 +18,7 @@ test.describe('Gift Card Screen Tests', () => {
         await expect(page).toHaveTitle('EasySpend | Live Smart, Spend Easy');
 
         // Login to the dashboard
-        await login.loginToDashboard(testEmail, 'Test12345');
+        await login.loginToDashboard(testEmail, 'Test1234');
         await expect(page).toHaveURL(/otp/);
 
         // Fetch the OTP from Mailosaur
